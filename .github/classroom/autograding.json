@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Output Verification - First 5 Records",
+      "setup": "javac task1/CSVReaderPreview.java",
+      "run": "java task1.CSVReaderPreview",
+      "input": "",
+      "expected_output": "=== Data Preview ===\n\nColumns:\nName\tAge\tIncome\t\nTotal Columns: 3\n\nFirst 5 Records:\n\nJohn\t25\t50000\t\nAlice\t30\t55000\t\nBob\t28\t53000\t\nDavid\t35\t60000\t\nEva\t40\t62000\t\n\nTotal Records (excluding header): 20\n",
+      "comparison": "included",
+      "timeout": 10
+    }
+  ]
+}
